@@ -1,0 +1,52 @@
+.navbox{
+    height:70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255, 0.9);
+    position: sticky;
+    top: 0;
+    .logo{
+        width: 30px;
+        margin: 3px 7px;
+    }
+}
+
+.buttonbox{
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button1{
+    text-decoration: none;
+    font-family:"Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    color: #404040;
+}
+
+.button1:hover{
+    background-color: 	rgb(230,215,255);
+    border-radius: 4px;
+}
+
+.button2{
+    text-decoration: none;
+    font-family:"Open Sans";
+    font-weight: 500;
+    font-size: 16px;
+    padding: 7px 15px;
+    margin-right: 8px;
+    color: rgb(72, 0, 205);
+    border-color: rgb(72, 0, 205);
+    border-radius: 4px;
+}
+
+.button1:hover{
+    background-color: rgb(72, 0, 205);
+    color: white;
+}
