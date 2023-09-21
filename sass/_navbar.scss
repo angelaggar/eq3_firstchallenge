@@ -1,0 +1,61 @@
+.navbox{
+    height: 56px;
+    width: 90% auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 40px;
+    margin: 3px 7px;
+}
+
+.buttonbox{
+    margin: 0 15px 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button1{
+    text-decoration: none;
+    font-family:"Open Sans";
+    color: #404040;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 3px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.button1:hover{
+    background-color: rgb(237, 230, 250);
+    border-radius: 6px;
+}
+
+.button2{
+    padding: 7px 15px;
+    margin-right: 8px;
+    background-color: white;
+    text-decoration: none;
+    font-family:"Open Sans";
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(72, 0, 205);
+    border-color: rgb(72, 0, 205);
+    border-radius: 6px;
+}
+
+.button2:hover{
+    background-color: rgb(72, 0, 205);
+    color: white;
+    text-decoration: underline;
+}
