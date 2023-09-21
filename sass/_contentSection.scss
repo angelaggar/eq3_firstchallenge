@@ -1,0 +1,45 @@
+.main {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.nav_main {
+        display: flex;
+        justify-content: flex-start;
+        
+        div {
+            padding-left: 2em;
+            a {
+                padding: 0.5em;
+                border-radius: 10%;
+                color: black;
+                text-decoration: none;
+            }
+            a:hover {
+                background-color: rgb(240, 240, 240);
+                color: rgb(60, 60, 220);
+                /*font-style: italic;*/
+            }
+            
+        }
+        
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    border-color: blue;
+    background-color: rgb(240, 240, 240);
+    .mainpicture {
+        max-width: 80%;
+    }
+}
+
