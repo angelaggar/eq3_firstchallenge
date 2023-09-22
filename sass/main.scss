@@ -1,9 +1,64 @@
 body{
     width: 100%;
     height: 100vh;
+    font-family: "Open Sans", sans-serif;
     background-color: rgb(238, 238, 238);
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .aside_left,
+  .asideright,
+  .main {
+    height: 100%;
+    padding: 1em;
+    margin: 1em;
+  }
+
+  .aside_left,
+  .asideright {
+    display: none;
+  }
+
+  .main {
+    flex: 1;
+    outline: red solid;
+    height: 100%;
+  }
+
+@media screen and (min-width:980px) {
+    .content {
+    display: flex;
+    flex-direction: row;
+    }
+    .aside_left {
+        outline: blue solid;
+        height: 100%;
+        flex: 1;
+        display: block;
+    }
+
+    .main {
+        flex: 4;
+        outline: red solid;
+        height: 100%;
+    }
+
+    .asideright {
+        outline: green solid;
+        height: 100%;
+        flex: 2;
+        display: block;
+    }
+
 }
 
+
 @import "navbar";
+@import "_asideLeft.scss";
 @import"_contentSection.scss";

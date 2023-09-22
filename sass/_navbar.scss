@@ -1,13 +1,14 @@
 .navbox{
     height: 56px;
-    width: 90% auto;
+    width: 100%;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 .logo{
