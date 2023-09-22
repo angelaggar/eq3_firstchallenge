@@ -17,8 +17,7 @@ body{
   .asideright,
   .main {
     height: 100%;
-    padding: 1em;
-    margin: 1em;
+    padding: 0.5em;
   }
 
   .aside_left,
@@ -62,4 +61,4 @@ body{
 
 @import "navbar";
 @import "asideleft";
-@import"_contentSection.scss";
+@import "contentSection";
