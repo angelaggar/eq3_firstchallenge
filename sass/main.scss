@@ -4,6 +4,8 @@ body{
     font-family: "Open Sans", sans-serif;
     background-color: rgb(238, 238, 238);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {

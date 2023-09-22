@@ -4,6 +4,8 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(238, 238, 238);
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
@@ -308,14 +310,14 @@ body {
   display: flex;
   justify-content: flex-start;
   list-style-type: none;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-left: 100px;
 }
 .mainbox .pills li {
   font-family: "Open Sans";
   color: #404040;
-  padding: 10px;
-  margin-right: 15px;
+  padding: 10px 0;
+  margin-right: 10px;
   border-radius: 10px;
 }
 .mainbox .pills li:hover {
