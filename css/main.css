@@ -67,6 +67,114 @@ body {
   text-decoration: underline;
 }
 
+.labelbox1 {
+  padding: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.labeltitle {
+  margin: 16px 0;
+  color: #242424;
+  font-size: 20px;
+}
+
+.labeltext {
+  margin-bottom: 16px;
+  color: #575757;
+  font-size: 16px;
+}
+
+.createbutton {
+  padding: 7px 15px;
+  margin-bottom: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b49df;
+  font-size: 16px;
+  background-color: white;
+  outline: #3b49df solid;
+  border-radius: 4px;
+}
+
+.createbutton:hover {
+  background-color: #3b49df;
+  color: white;
+  text-decoration: underline;
+}
+
+.loginbutton {
+  padding: 8px 16px;
+  color: #404040;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+}
+
+.loginbutton:hover {
+  background-color: rgb(237, 230, 250);
+  border-radius: 4px;
+  color: #3b49df;
+  text-decoration: underline;
+}
+
+.labelbox2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.listbox {
+  padding: 8px 16px;
+  list-style: none;
+}
+.listbox .icon {
+  text-decoration: none;
+  color: #404040;
+  font-size: 16px;
+  text-align: left;
+}
+
+.listbox:hover {
+  background-color: rgb(237, 230, 250);
+}
+.listbox:hover .icon:hover {
+  color: #3b49df;
+  text-decoration: underline;
+}
+
+.socialm {
+  display: flex;
+  flex-direction: row;
+}
+.socialm .social_icon {
+  width: 24px;
+  padding: 8px;
+  color: #404040;
+  font-size: 10px;
+}
+
+.social_icon:hover {
+  background-color: rgb(237, 230, 250);
+  border-radius: 4px;
+}
+
+.tag {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #404040;
+  font-size: 16px;
+}
+
+.tag:hover {
+  background-color: rgb(237, 230, 250);
+  border-radius: 4px;
+  color: #3b49df;
+  text-decoration: underline;
+}
+
 .main {
   border-radius: 10px;
   display: flex;
