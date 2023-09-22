@@ -17,8 +17,7 @@ body {
 .asideright,
 .main {
   height: 100%;
-  padding: 1em;
-  margin: 1em;
+  padding: 0.5em;
 }
 
 .aside_left,
@@ -138,9 +137,14 @@ body {
   font-size: 16px;
 }
 
+.loginbox {
+  display: flex;
+  flex-direction: column;
+}
+
 .createbutton {
   padding: 7px 15px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   text-align: center;
   text-decoration: none;
   color: #3b49df;
@@ -178,8 +182,11 @@ body {
 }
 
 .listbox {
-  padding: 8px 16px;
   list-style: none;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .listbox .icon {
   text-decoration: none;
@@ -203,8 +210,6 @@ body {
 .socialm .social_icon {
   width: 24px;
   padding: 8px;
-  color: #404040;
-  font-size: 10px;
 }
 
 .social_icon:hover {
@@ -213,7 +218,6 @@ body {
 }
 
 .tag {
-  padding: 8px 16px;
   text-decoration: none;
   color: #404040;
   font-size: 16px;
