@@ -323,4 +323,46 @@ body {
 .mainbox .pills li:hover {
   background-color: rgb(237, 230, 250);
   font-style: italic;
+}
+
+.cajaGris1 {
+  border: solid #ada8a8;
+  background-color: #b9b7b7;
+  padding-bottom: 0cm;
+}
+
+.cajaGris {
+  border: 1px solid #ada8a8;
+  background-color: #b9b7b7;
+  width: flex;
+  height: flex;
+}
+
+.fontFooter {
+  text-align: center;
+  text-decoration-style: none;
+}
+
+.navBottom {
+  display: flex;
+  justify-content: center;
+  list-style-type: circle;
+  flex-wrap: nowrap;
+  padding-left: 100px;
+  text-decoration-style: solid;
+}
+.navBottom li {
+  font-family: "Open Sans";
+  color: #7d7d7d;
+  padding: 10px 0;
+  margin-right: 10px;
+  border-radius: 10px;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.tag2 {
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
