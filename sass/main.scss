@@ -29,7 +29,7 @@ body{
 
   .main {
     flex: 1;
-    outline: red solid;
+    // outline: red solid;
     height: 100%;
   }
 
@@ -39,7 +39,7 @@ body{
     flex-direction: row;
     }
     .aside_left {
-        outline: blue solid;
+        // outline: blue solid;
         height: 100%;
         flex: 1;
         display: block;
@@ -47,12 +47,12 @@ body{
 
     .main {
         flex: 4;
-        outline: red solid;
+        // outline: red solid;
         height: 100%;
     }
 
     .asideright {
-        outline: green solid;
+        // outline: green solid;
         height: 100%;
         flex: 2;
         display: block;
