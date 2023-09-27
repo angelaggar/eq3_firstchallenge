@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     list-style-type: circle;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding-left: 100px;
     text-decoration-style: solid;
     
@@ -37,6 +37,9 @@
 }
 .tag2{
     text-decoration: none;
-    color: blue;    
-    font-size: 16px;
+    color: blue; 
+    font-size: 10px;   
+}
+p {
+    font-size: 10px;
 }

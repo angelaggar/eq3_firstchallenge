@@ -4,12 +4,13 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(238, 238, 238);
   box-sizing: border-box;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
 
 .content {
-  width: 80%;
+  width: 85%;
   margin: 3em auto;
   display: flex;
   justify-content: center;
@@ -113,6 +114,10 @@ body {
   background-color: rgb(72, 0, 205);
   color: white;
   text-decoration: underline;
+}
+
+.aside_left {
+  margin-top: 8px;
 }
 
 .labelbox1 {
@@ -306,7 +311,7 @@ body {
   display: flex;
   justify-content: flex-start;
   list-style-type: none;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding-left: 100px;
 }
 .mainbox .pills li {
@@ -319,6 +324,10 @@ body {
 .mainbox .pills li:hover {
   background-color: rgb(237, 230, 250);
   font-style: italic;
+}
+
+.asideright {
+  margin-top: 8px;
 }
 
 .labelbox4 {
@@ -407,7 +416,7 @@ body {
   display: flex;
   justify-content: center;
   list-style-type: circle;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding-left: 100px;
   text-decoration-style: solid;
 }
@@ -424,5 +433,9 @@ body {
 .tag2 {
   text-decoration: none;
   color: blue;
-  font-size: 16px;
+  font-size: 10px;
+}
+
+p {
+  font-size: 10px;
 }/*# sourceMappingURL=main.css.map */
