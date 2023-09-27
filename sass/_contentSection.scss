@@ -107,3 +107,15 @@
         }
     }
 }
+@media only screen and (max-width: 420px) {
+    .mainbox {  
+    .h2_title {
+        margin: 0;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    .pills {
+        padding-left: 26px;
+    }
+  }
+  }

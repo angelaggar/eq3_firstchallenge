@@ -326,6 +326,16 @@ body {
   font-style: italic;
 }
 
+@media only screen and (max-width: 420px) {
+  .mainbox .h2_title {
+    margin: 0;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+  .mainbox .pills {
+    padding-left: 26px;
+  }
+}
 .asideright {
   margin-top: 8px;
 }
@@ -417,7 +427,6 @@ body {
   justify-content: center;
   list-style-type: circle;
   flex-wrap: wrap;
-  padding-left: 100px;
   text-decoration-style: solid;
 }
 .navBottom li {
